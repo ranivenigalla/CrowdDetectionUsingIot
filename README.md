@@ -28,3 +28,12 @@ Here the Python Script checks the output of PIR Sensor sent to the Bolt device f
 PIR(Passive Infrared Sensor):
 PIR sensors allow you to sense motion, almost always used to detect whether a human has moved in or out of the sensor's range. They are small, inexpensive, low-power, easy to use and don't wear out. For that reason they are commonly found in appliances and gadgets used in homes or businesses. They are often referred to as PIR, Passive Infrared, Pyroelectric, or IR motion sensors.
 The PIR sensor itself has two slots in it, each slot is made of a special material that is sensitive to IR. The lens used here is not really doing much and so we see that the two slots which could see past some distance (basically the sensitivity of the sensor). When the sensor is idle, both slots detect the same amount of IR, the ambient amount radiated from the room or walls or outdoors. When a warm body like a human or animal passes by, it first intercepts one half of the PIR sensor, which causes a positive differential change between the two halves. When the warm body leaves the sensing area, the reverse happens, whereby the sensor generates a negative differential change. These change pulses are what is detected.
+
+Things used in this project:
+Bolt wifi module
+bolt android app
+pir sensor
+led
+buzzer
+twilio sms messaging api
+mailgun mailing api
